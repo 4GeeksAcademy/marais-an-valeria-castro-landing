@@ -1,41 +1,36 @@
-# HTML Hello
+# Valeria Castro
 
-The most basic boilerplate for any 4Geeks Academy student, start your very first website from scratch.
+Landing page académica y no oficial sobre la cantautora Valeria Castro. No está afiliada a la artista ni la representa.
 
-> There is a video tutorial on [how to use this template to create your very first website here](https://youtu.be/dfbDCMu_p-0).
+## Secciones
 
-## What to do next?
+- Inicio
+- Sobre Valeria
+- Trayectoria
+- Próximas presentaciones
 
-Create an `index.html` file with the [basic HTML structure](http://4geeks.com/lesson/what-is-html-learn-html#page-structure) and see it live by running a web-server using the following command:
+## Tecnologías
+
+La página está hecha únicamente con HTML y CSS. Los datos estructurados de la artista usan Microdata de Schema.org. No utiliza JavaScript ni frameworks.
+
+## Vista previa
+
+Desde la carpeta del proyecto, ejecuta el comando de esta plantilla:
 
 ```bash
-$ pip3 install flask && python3 server.py
+pip3 install flask && python3 server.py
 ```
 
-- You can create as many HTML files as you want.
-- You can also create CSS files and import them into your website using a `<link>` tag placed between the `<head></head>` tags, like this:
+Después abre [http://localhost:3000](http://localhost:3000) en el navegador.
 
-```html
-<head>
-  ...
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Fuentes
 
-- If you want to use Tailwind CSS, add it optionally via the official Tailwind CSS v4 CDN inside the same `<head>`:
+- [Web oficial de Valeria Castro](https://valeria-castro.es/) — biografía, trayectoria y agenda.
+- [Whelan’s](https://www.whelanslive.com/event/valeria-castro/), [The Garage](https://www.thegarage.london/live/) y [Estadi Olímpic de Barcelona](https://estadiolimpic.barcelona/es/valeria-castro) — información de presentaciones.
+- [Fotografía oficial de Valeria Castro](https://valeria-castro.es/wp-content/uploads/2025/12/Valeria-Castro-bio-dic-25-2.jpg) — copia local en `images/valeria-castro-bio-dic-25-2.jpg`.
 
-```html
-<head>
-  ...
-  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  ...
-</head>
-```
+## Pruebas
 
-### Contributors
+La revisión manual reportada incluye comprobación visual en escritorio y móvil, navegación con ratón, Tab y Enter. También se revisaron el código y los ratios de contraste.
 
-This template was built as part of the [Full Stack Developer course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer) at [4Geeks Academy Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and [many other contributors](https://github.com/4GeeksAcademy/html-hello/graphs/contributors).
-
-You can find other templates and resources like this at the [school's GitHub page](https://github.com/4geeksacademy/).
+No se realizó una prueba con lector de pantalla ni una validación externa.
